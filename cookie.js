@@ -7,7 +7,7 @@
 
 		    $("#hide-marketing-message-btn").click(function(){
 		        $("#marketing-message-global").hide();
-		        //Save the value to as a cookie for 1 day. Cookie domain is used across whole site.
+		        //Save the value as a cookie for 1 day. Cookie domain is used across whole site.
 		        $.cookie("toggle-state", $("#marketing-message-global").is(':visible'), {expires: 1, path:'/'}); 
 		    });
 	    });
